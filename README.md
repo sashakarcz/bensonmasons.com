@@ -1,10 +1,10 @@
-# Ananke, A theme for [Hugo](https://gohugo.io/), a framework for building websites.
+# Benson Masons, a [Hugo](https://gohugo.io/) powered site for the Mercer Lodge #290.
 
 The intent of this theme is to provide a solid starting place for Hugo sites with basic features and include best practices for performance, accessibility, and rapid development.
 
-![screenshot](https://raw.githubusercontent.com/budparr/gohugo-theme-ananke/master/images/screenshot.png)
+![screenshot]()
 
-[DEMO](https://gohugo-ananke-theme-demo.netlify.com/)
+[DEMO](https://dev.bensonmasons.com/)
 
 Features
 
@@ -45,6 +45,9 @@ Also includes examples of Hugo Features or Functions:
 
 This theme uses the "Tachyons" CSS library. This will allow you to manipulate the design of the theme by changing class names in HTML without touching the original CSS files. For more information see the [Tachyons website](https://tachyons.io/).
 
+## Continious Building and Deploying
+
+We have aimed to set up a build pipeline such that when a change is commited, the site is built and then served immediately using [Cloudflare Pages](https://pages.cloudflare.com/).
 
 
 ## Installation
@@ -87,7 +90,7 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### The config file
 
-Take a look inside the [`exampleSite`](https://github.com/theNewDynamic/gohugo-theme-ananke/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
+Take a look inside the [`content`](https://github.com/sashakarcz/bensonmasons.com/tree/main/content/en) folder of this site for all pages. [`static/images`](https://github.com/sashakarcz/bensonmasons.com/tree/main/static/images) is where all photos should go. You'll find a file called [`config.toml`](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/exampleSite/config.toml](https://github.com/sashakarcz/bensonmasons.com/blob/main/config.toml) with all the metadata.
 
 You may need to delete the line: `themesDir = "../.."`
 
@@ -128,10 +131,10 @@ example: `background_color_class = "bg-blue"` or `background_color_class = "bg-g
 
 ### Activate the contact form
 
-This theme includes a shortcode for a contact form that you can add to any page (there is an example on the contact page in the exampleSite folder). One option is to use [formspree.io](//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
+We use [formspree.io](//formspree.io/) as proxy to send the emails to the Lodge. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
 
 ```
-{{< form-contact action="https://formspree.io/your@email.com" >}}
+{{< form-contact action="https://formspree.io/f/xgegvojz"  >}}
 ```
 
 ### Read more link
@@ -140,16 +143,9 @@ The homepage and other areas of the site use a `read more` link on the element. 
 
 ```
 # config.yaml
-# Globally for all pages:
-params:
-  read_more_copy: Read more about this entry
-# Just for french
-languages:
-  fr:
-    name: Français
-    weight: 2
-    params:
-       read_more_copy: En savoir plus à ce sujet
+module:
+  hugoVersion:
+    min: "0.84.0"
 ```
 Using front matter and cascade, this can be customized for a whole section, or just for one page.
 
@@ -168,47 +164,30 @@ In order to register a service to be used, user must add an `ananke_socials` par
 - url*: The url of the handle's profile on the service (Ex: https://twitter.com/theNewDynamic, https://github.com/
 theNewDynamic)
 - rel: (default: `noopener`) Controls the `rel` attribute of the "follow" link. Useful for Mastodon verification which requires a `rel="me"` on the link.
-```yaml
-params:
-  ananke_socials:
-  - name: twitter
-    url: https://twitter.com/theNewDynamic
-  - name: github
-    url: https://github.com/theNewDynamic
-  - name: mastodon
-    url: https://social.example.com/@username
-    rel: me noopener
-```
 
-If user needs to overwrite default `color` and `label` of the service, they simply need to append the following to the entry:
-- label: The displayed name of the service to be used to popuplate `[title]` attributes and read-only. (Ex: Twitter, GitHub)
-- color: Used for styling purposes. (Ex: '#1da1f2', '#6cc644')
+```toml
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/mercermasoniclodge"
 
-```yaml
-params:
-  ananke_socials:
-  - name: twitter
-    url: https://twitter.com/theNewDynamic
-    label: TND Twitter
-  - name: github
-    url: https://github.com/theNewDynamic
-    label: TND GitHub Account
-    color: '#ff6800'
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/mercerlodge290"
 ```
 
 #### Limit Follow or Share
 
 If a user needs to control Share and Follow of a service, for example enabling "Share on Facebook" without having a Facebook Page to "follow", they can set `follow: false` one the registered service.
 
-```yaml
-params:
-  ananke_socials:
-  - name: facebook
-    label: Facebook
-    follow: false
-  - name: twitter
-    url: https://twitter.com/theNewDynamic
-    label: TND Twitter
+```toml
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/mercermasoniclodge"
+follow = false
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/mercerlodge290"
 ```
 
 #### Social Icons Customization
@@ -272,26 +251,6 @@ Ananke stylesheet is built with Hugo Pipes's [Asset Bundling](https://gohugo.io/
 
 Ananke uses [Tachyon.io](https://tachyons.io/) utility class library.
 
-#### Custom CSS
-
-WARNING: Pending resolution of this [discussion](https://github.com/theNewDynamic/gohugo-theme-ananke/discussions/452#discussioncomment-1865301), Custom CSS only works with Hugo Extended
-
-In order to complement the default CSS with your own, you can add custom css files to the project.
-
-1. Just add a `assets/ananke/css` directory to your project and add the file(s) in it.
-2. Register the files using the `custom_css` key in your site's parameter. The path referenced in the parameter should be relative to the `assets/ananke/css` folder.
-
-The css files will be added in their registered order to final `main.css` file.
-
-For example, if your css files are `assets/ananke/css/custom.css` and `assets/ananke/special.css` then add the following to the config file:
-
-```
-  [params]
-    custom_css = ["custom.css","special.css"]
-```
-__IMPORTANT__: Files registered through the `custom_css` array, while unlimited in number, must be of the same type (Ex: all `scss` or all `css`)
-
-__Note on retrocompatibiliy for custom css__: If the files registered through the `custom_css` setting are not found in `assets/ananke/css` the theme will expect them to live at the given path relative to the static directory and load them as <link> requests.
 
 ### Show Reading Time and Word Count
 
@@ -372,10 +331,6 @@ Note: The above command will not work on Windows. If you are running a Windows O
 set HUGO_ENV=production
 hugo
 ```
-
-## Contributing
-
-If you find a bug or have an idea for a feature, feel free to use the [issue tracker](https://github.com/theNewDynamic/gohugo-theme-ananke/issues) to let me know.
 
 
 
