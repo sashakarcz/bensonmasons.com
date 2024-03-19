@@ -40,7 +40,7 @@ Also includes examples of Hugo Features or Functions:
 - `len`
 - Conditionals
 - `ge` (greater than or equal to)
-- `.Site.Params.mainSections` to avoid hard-coding "blog," etc. [[release note](https://github.com/gohugoio/hugo/blob/66ec6305f6cb450ddf9c489854146bac02f7dca1/docs/content/meta/release-notes.md#enhancements)]
+- `.Site.Params.mainSections` to avoid hard-coding "blog," etc. [release note](https://github.com/gohugoio/hugo/blob/66ec6305f6cb450ddf9c489854146bac02f7dca1/docs/content/meta/release-notes.md#enhancements)
 
 
 This theme uses the "Tachyons" CSS library. This will allow you to manipulate the design of the theme by changing class names in HTML without touching the original CSS files. For more information see the [Tachyons website](https://tachyons.io/).
@@ -90,7 +90,7 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### The config file
 
-Take a look inside the [`content`](https://github.com/sashakarcz/bensonmasons.com/tree/main/content/en) folder of this site for all pages. [`static/images`](https://github.com/sashakarcz/bensonmasons.com/tree/main/static/images) is where all photos should go. You'll find a file called [`config.toml`](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/exampleSite/config.toml](https://github.com/sashakarcz/bensonmasons.com/blob/main/config.toml) with all the metadata.
+Take a look inside the [`content`](https://github.com/sashakarcz/bensonmasons.com/tree/main/content/en) folder of this site for all pages. [`static/images`](https://github.com/sashakarcz/bensonmasons.com/tree/main/static/images) is where all photos should go. You'll find a file called [`config.toml`](https://github.com/sashakarcz/bensonmasons.com/blob/main/config.toml) with all the metadata.
 
 You may need to delete the line: `themesDir = "../.."`
 
