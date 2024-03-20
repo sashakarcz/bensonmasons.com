@@ -332,9 +332,3 @@ set HUGO_ENV=production
 hugo
 ```
 
-
-
-
-TODO:
-
-- fix hard-coded link to [section](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/index.html#L32)
