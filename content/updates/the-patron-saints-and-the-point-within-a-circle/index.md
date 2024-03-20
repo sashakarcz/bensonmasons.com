@@ -2,18 +2,18 @@
 title: The Patron Saints and the Point Within A Circle
 ---
 
-John J. Mercer Lodge No. 290 is selling prints of the painting &#8220;The Patron Saints and the Point within A Circle&#8221; commissioned by the Lodge in 2014. 
+John J. Mercer Lodge No. 290 is selling prints of the painting, "The Patron Saints and the Point within A Circle" commissioned by the Lodge in 2014. 
 
-For more information on this inspirational work of Masonic art, please have a look at the Interview with [WB. David Long](pdf/Patron_Saints_and_the_Point_Within_the_CircleThe.pdf)
+For more information on this inspirational work of Masonic art, please have a look at the [Interview with WB. David Long](pdf/Patron_Saints_and_the_Point_Within_the_CircleThe.pdf)
 
 {{< figure src="/images/pwiac.jpg" title="Patron Saints and the Point Within the Circle">}}
 
 
 ## Shipping Information
 
-All prints are shipped in 24&#8243; x 4&#8243; mailing tubes using ground shipping. Each print is rolled in interleaving paper to prevent damage to the print in transit. Each print (up to 4) will be sent individually, in their own tube. We currently do not have the capacity to offer any other type of expedited shipping online and ask that the buyer allot up to 7 days for fulfillment of the order. Once the print has shipped, the buyer will receive a tracking number.
+All prints are shipped in 24" x 4" mailing tubes using ground shipping. Each print is rolled in interleaving paper to prevent damage to the print in transit. Each print (up to 4) will be sent individually, in their own tube. We currently do not have the capacity to offer any other type of expedited shipping online and ask that the buyer allot up to 7 days for fulfillment of the order. Once the print has shipped, the buyer will receive a tracking number.
 
-The physical size of the print itself is 22⅜"; x 35⅛"
+The physical size of the print itself is 22⅜" x 35⅛"
 
 
 ## Order By Mail
@@ -28,7 +28,7 @@ Omaha, NE 68104
 Checks should be made out to:  
 **John J. Mercer Lodge No. 290**
 
-All checks should include "PWIAC"; and the number of prints you would like in the **memo** field.
+All checks should include "PWIAC" and the number of prints you would like in the **memo** field.
 
 Prints will be mailed to the address on the check unless otherwise specified. **Please include your phone number** so that we can contact you if any issues arise.
 
