@@ -46,7 +46,159 @@ If you live in the area, you can arrange to pickup your print from our Lodge by 
 {{< rawhtml >}}
 <script src="https://www.paypal.com/sdk/js?client-id=ASJRpc7ZXZWsMgK93sIyuYtBUfeqqL3zSRdMaqcsQp84sVAAOtIXbE9Xe2ymZpiacMw7Kz9G7S8VksKJ"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
 </script>
-<script>var PRINT_COST=100.00;var SHIPPING_COST=35;var PICKUP_COST=8;var SHIPPING_WORDING="Shipping and Handling";var PICKUP_WORDING="Pickup Handling Fee";function setPaymentButtonVisibility(isVisible){payDuesButton=document.querySelector('#submit-payment-form');if(isVisible){payDuesButton.style.display='inline-block';return;}payDuesButton.style.display='none';}function getTotalCost(){return getShippingTotal()+getPrintTotal();}function isProductBeingShipped(){return document.querySelector('#shippingType').value!=="pickup";}function getNumberOfPrints(){return parseInt(document.querySelector('#printCount').value);}function setShippingInfoInCostsTable(){if(isProductBeingShipped()){document.querySelector("#shippingCostPerItem").innerHTML=SHIPPING_COST;document.querySelector("#shippingWording").innerHTML=SHIPPING_WORDING;return;}document.querySelector("#shippingCostPerItem").innerHTML=PICKUP_COST;document.querySelector("#shippingWording").innerHTML=PICKUP_WORDING;}function getShippingTotal(){if(isProductBeingShipped()){return SHIPPING_COST*getNumberOfPrints();}return PICKUP_COST*getNumberOfPrints();}function getPrintTotal(){return PRINT_COST*getNumberOfPrints();}function getItems(){var items=[];items.push({unit_amount:{currency_code:'USD',value:PRINT_COST},name:"The Patron Saints and the Point within the Circle (Signed Print)",description:"The Patron Saints and the Point within the Circle (Signed Print)",quantity:getNumberOfPrints()});return items;}function resetPPButtonContainer(){document.querySelector('#paypal-button-container').innerHTML='';}function resetForm(){document.querySelector('.payment-form').reset();updateCostTable();}function scrollToTop(){document.body.scrollTop=0;document.documentElement.scrollTop=0;}function recalculateTotalDues(){document.querySelector('.dues-generated-total').innerHTML=getTotalCost();}function validateForm(){return true;}function submitPayment(){if(validateForm()){paypal.Buttons({createOrder:function(data,actions){return actions.order.create({purchase_units:[{amount:{value:getTotalCost(),breakdown:{item_total:{currency_code:"USD",value:getPrintTotal()},shipping:{currency_code:"USD",value:getShippingTotal()},tax_total:{currency_code:"USD",value:"0"},discount:{currency_code:"USD",value:"0"}}},description:"Patron Saints and The Point Within a Circle (Signed Print)",items:getItems()}]});},onApprove:function(data,actions){console.log("PPT Data",data);return actions.order.capture().then(function(orderDetails){console.log(orderDetails);var paymentConfirmationDiv=document.querySelector('#payment-confirmation');paymentConfirmationDiv.innerText='Success! Your payment to John J. Mercer Lodge has been completed '+'successfully. PayPal will send you a confirmation email to the address provided. '+'Please print this page or take note of the following reference number should you '+'need it in the future: \n\n  '+'Reference ID: '+orderDetails.purchase_units[0].payments.captures[0].id+'\n\n'+'Please allow up to 5 days for your order to be processed. A tracking number will be '+'attached to your PayPal order once your item has been shipped. For all inquiries, '+'please contact info@bensonmasons.com. Thanks for your support!';scrollToTop();paymentConfirmationDiv.style.display='block';resetForm();resetPPButtonContainer();setPaymentButtonVisibility(true);});},}).render('#paypal-button-container');setPaymentButtonVisibility(false);}}function updateCostTable(){document.querySelectorAll(".numberOfPrints").forEach(function(field){field.innerHTML=document.querySelector("#printCount").value;});setShippingInfoInCostsTable();document.querySelector("#totalShippingCost").innerHTML=getShippingTotal();document.querySelector("#totalPrintCost").innerHTML=getPrintTotal();document.querySelector("#grandTotal").innerHTML=getTotalCost();}window.onload=(event)=>{var formFields=document.querySelectorAll('.payment-form-field');formFields.forEach(function(field){field.addEventListener('change',function(){updateCostTable();});});updateCostTable();document.querySelector('#submit-payment-form').addEventListener('click',function(){submitPayment();});};</script>
+
+<script>
+    var PRINT_COST = 100.00;
+    var SHIPPING_COST = 35;
+    var PICKUP_COST = 8;
+    var SHIPPING_WORDING = "Shipping and Handling";
+    var PICKUP_WORDING = "Pickup Handling Fee";
+
+    function setPaymentButtonVisibility(isVisible) {
+        var payDuesButton = document.querySelector('#submit-payment-form');
+        if (isVisible) {
+            payDuesButton.style.display = 'inline-block';
+            return;
+        }
+        payDuesButton.style.display = 'none';
+    }
+
+    function getTotalCost() {
+        return getShippingTotal() + getPrintTotal();
+    }
+
+    function isProductBeingShipped() {
+        return document.querySelector('#shippingType').value !== "pickup";
+    }
+
+    function getNumberOfPrints() {
+        return parseInt(document.querySelector('#printCount').value);
+    }
+
+    function setShippingInfoInCostsTable() {
+        if (isProductBeingShipped()) {
+            document.querySelector("#shippingCostPerItem").innerHTML = SHIPPING_COST;
+            document.querySelector("#shippingWording").innerHTML = SHIPPING_WORDING;
+            return;
+        }
+        document.querySelector("#shippingCostPerItem").innerHTML = PICKUP_COST;
+        document.querySelector("#shippingWording").innerHTML = PICKUP_WORDING;
+    }
+
+    function getShippingTotal() {
+        if (isProductBeingShipped()) {
+            return SHIPPING_COST * getNumberOfPrints();
+        }
+        return PICKUP_COST * getNumberOfPrints();
+    }
+
+    function getPrintTotal() {
+        return PRINT_COST * getNumberOfPrints();
+    }
+
+    function getItems() {
+        var items = [];
+        items.push({
+            unit_amount: { currency_code: 'USD', value: PRINT_COST },
+            name: "The Patron Saints and the Point within the Circle (Signed Print)",
+            description: "The Patron Saints and the Point within the Circle (Signed Print)",
+            quantity: getNumberOfPrints()
+        });
+        return items;
+    }
+
+    function resetPPButtonContainer() {
+        document.querySelector('#paypal-button-container').innerHTML = '';
+    }
+
+    function resetForm() {
+        document.querySelector('.payment-form').reset();
+        updateCostTable();
+    }
+
+    function scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function recalculateTotalDues() {
+        document.querySelector('.dues-generated-total').innerHTML = getTotalCost();
+    }
+
+    function validateForm() {
+        return true;
+    }
+
+    function submitPayment() {
+        if (validateForm()) {
+            paypal.Buttons({
+                createOrder: function (data, actions) {
+                    return actions.order.create({
+                        purchase_units: [{
+                            amount: {
+                                value: getTotalCost(),
+                                breakdown: {
+                                    item_total: { currency_code: "USD", value: getPrintTotal() },
+                                    shipping: { currency_code: "USD", value: getShippingTotal() },
+                                    tax_total: { currency_code: "USD", value: "0" },
+                                    discount: { currency_code: "USD", value: "0" }
+                                }
+                            },
+                            description: "Patron Saints and The Point Within a Circle (Signed Print)",
+                            items: getItems()
+                        }]
+                    });
+                },
+                onApprove: function (data, actions) {
+                    console.log("PPT Data", data);
+                    return actions.order.capture().then(function (orderDetails) {
+                        console.log(orderDetails);
+                        var paymentConfirmationDiv = document.querySelector('#payment-confirmation');
+                        paymentConfirmationDiv.innerText = 'Success! Your payment to John J. Mercer Lodge has been completed ' +
+                            'successfully. PayPal will send you a confirmation email to the address provided. ' +
+                            'Please print this page or take note of the following reference number should you ' +
+                            'need it in the future: \n\n  ' +
+                            'Reference ID: ' + orderDetails.purchase_units[0].payments.captures[0].id + '\n\n' +
+                            'Please allow up to 5 days for your order to be processed. A tracking number will be ' +
+                            'attached to your PayPal order once your item has been shipped. For all inquiries, ' +
+                            'please contact info@bensonmasons.com. Thanks for your support!';
+                        scrollToTop();
+                        paymentConfirmationDiv.style.display = 'block';
+                        resetForm();
+                        resetPPButtonContainer();
+                        setPaymentButtonVisibility(true);
+                    });
+                },
+            }).render('#paypal-button-container');
+            setPaymentButtonVisibility(false);
+        }
+    }
+
+    function updateCostTable() {
+        document.querySelectorAll(".numberOfPrints").forEach(function (field) {
+            field.innerHTML = document.querySelector("#printCount").value;
+        });
+        setShippingInfoInCostsTable();
+        document.querySelector("#totalShippingCost").innerHTML = getShippingTotal();
+        document.querySelector("#totalPrintCost").innerHTML = getPrintTotal();
+        document.querySelector("#grandTotal").innerHTML = getTotalCost();
+    }
+
+    window.onload = (event) => {
+        var formFields = document.querySelectorAll('.payment-form-field');
+        formFields.forEach(function (field) {
+            field.addEventListener('change', function () {
+                updateCostTable();
+            });
+        });
+
+        updateCostTable();
+
+        document.querySelector('#submit-payment-form').addEventListener('click', function () {
+            submitPayment();
+        });
+    };
+</script>
 
 <form class="payment-form">
     <ul class="flex-outer" id="payment-form-list">
