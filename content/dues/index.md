@@ -2,11 +2,8 @@
 title: 2024 Dues
 menu:
   main:
-    weight: 5
+    weight: 2
 ---
-
-<div id="payment-confirmation">
-</div>
 
 Dues season is here and [online payment](#dues-form) is available! 
 

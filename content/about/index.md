@@ -2,7 +2,7 @@
 title: "About"
 menu:
   main:
-    weight: 2
+    weight: 4
 ---
 
 # As Freemasons
