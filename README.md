@@ -165,10 +165,10 @@ Now we can edit the `content/foo/index.md` file:
 
 ```bash
 ---
-title: "New Title"
-menu:
-  main:
-    weight: 2
+title: "New Title"   <-- This is the title, and what will be shown in the menu if the menu section is added
+menu:                <-- This will add the page to the menu
+  main:              <-- This is the main menu
+    weight: 2        <-- This is the ordering from left to right. A weight of 1 will make it the left most item.
 ---
 
 # New Heading
