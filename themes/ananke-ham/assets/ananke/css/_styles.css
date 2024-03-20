@@ -44,9 +44,13 @@
 /* Display nav links vertically on smaller screens */
 @media (max-width: 600px) {
   .nav-links {
+    display: -webkit-box;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
-    align-items: center; /* Center items vertically */
+    -webkit-align-items: center;
+    align-items: center;
   }
   .menu-btn {
     display: block;
