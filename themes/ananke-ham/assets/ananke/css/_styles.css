@@ -12,10 +12,9 @@
   margin-bottom: 2rem;
   border-left: 4px solid #ccc;
   padding-left: 1rem;
-
 }
 
-.nested-links a{
+.nested-links a {
   overflow-wrap: break-word;
 }
 
@@ -24,6 +23,19 @@
   color: white;
   font-size: 2em;
 }
+
+/* Adjust hamburger menu for dark mode */
+@media (prefers-color-scheme: dark) {
+  .menu-btn {
+    color: #fff; /* Change color to white for dark mode */
+  }
+}
+
+/* Adjust hamburger menu size */
+.menu-btn {
+  font-size: 2em; /* Change size as needed */
+}
+
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -38,3 +50,4 @@
     display: block;
   }
 }
+
