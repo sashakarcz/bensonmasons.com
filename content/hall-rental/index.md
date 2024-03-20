@@ -6,23 +6,19 @@ menu:
 ---
  
 
-The Benson Masonic Temple&#8217;s **dining hall** is available for rent for your event. The hall is open for rent on Fridays, Saturdays and Sundays unless an event is already scheduled.  
+The Benson Masonic Temple's **dining hall** is available for rent for your event. The hall is open for rent on Fridays, Saturdays and Sundays unless an event is already scheduled.  
   
 Some facts, photos and further information about the hall are outlined below. 
 
-<p class="has-text-align-left">
-  <strong><em>Please read the </em>Hall Information & Cost Requirements<em> below before submitting a request.</em></strong>
-</p>
+**Please read the Hall Information & Cost Requirements below before submitting a request.**
 
 If, after reading the information below, you have additional questions, please email us at rentals@bensonmasons.com. 
 
-<hr class="wp-block-separator" />
+---
 
-If you wish to submit a request to rent the hall, please click on the link below and fill out the request form. Someone from the Lodge&#8217;s Temple Craft Committee will be in contact with you.
+If you wish to submit a [request](https://forms.gle/mRcu76rYBnpaSBYh7) to rent the hall, please click on the link below and fill out the request form. Someone from the Lodge's Temple Craft Committee will be in contact with you.
 
-<https://forms.gle/mRcu76rYBnpaSBYh7>
 
-<hr class="wp-block-separator" />
 
 ## Hall Information
 
@@ -45,7 +41,6 @@ Kitchen
       * Garbage Disposal (and sink attached)
       * Any consumable items stored in the kitchen or dining area (napkins, utensils, paper cups, etc.)
 
-<hr class="wp-block-separator" />
 
 ## Cost & Requirements
 
@@ -55,6 +50,8 @@ The **deposit** is due within seven (7) days of booking the hall.
 
 The **rental fee** ($300.00 minimum plus any additional time required) is due two (2) weeks before the Client takes possession of the facility.
 
-A signed Rental Agreement is also required which outlines the cost, time of occupancy, cleaning duties and more.<figure class="wp-block-image size-large">
+A signed Rental Agreement is also required which outlines the cost, time of occupancy, cleaning duties and more.
 
-<img src="/images/2023/02/PXL_20230222_033323282-2.jpg" alt="" class="wp-image-461" srcset="/images/2023/02/PXL_20230222_033323282-2.jpg 1000w, /images/2023/02/PXL_20230222_033323282-2-300x226.jpg 300w, /images/2023/02/PXL_20230222_033323282-2-768x578.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /> </figure> <figure class="wp-block-image size-large"><img src="/images/2023/02/PXL_20230222_033328485.MP_-1.jpg" alt="" class="wp-image-462" srcset="/images/2023/02/PXL_20230222_033328485.MP_-1.jpg 1000w, /images/2023/02/PXL_20230222_033328485.MP_-1-300x226.jpg 300w, /images/2023/02/PXL_20230222_033328485.MP_-1-768x578.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+{{< figure src="/images/2023/02/PXL_20230222_033323282-2.jpg">}}
+
+{{< figure src="/images/2023/02/PXL_20230222_033328485.MP_-1.jpg">}}
