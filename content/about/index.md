@@ -1,6 +1,5 @@
 ---
 title: "About"
-featured_image: '/images/mercer.jpg'
 ---
 
 # As Freemasons

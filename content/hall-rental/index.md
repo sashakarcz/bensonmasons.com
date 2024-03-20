@@ -1,6 +1,5 @@
 ---
 title: Hall Rental
-featured_image: '/images/mercer.jpg'
 ---
  
 
@@ -55,4 +54,4 @@ The **rental fee** ($300.00 minimum plus any additional time required) is due tw
 
 A signed Rental Agreement is also required which outlines the cost, time of occupancy, cleaning duties and more.<figure class="wp-block-image size-large">
 
-<img src="https://www.bensonmasons.com/wp-content/uploads/2023/02/PXL_20230222_033323282-2.jpg" alt="" class="wp-image-461" srcset="https://bensonmasons.com/wp-content/uploads/2023/02/PXL_20230222_033323282-2.jpg 1000w, https://bensonmasons.com/wp-content/uploads/2023/02/PXL_20230222_033323282-2-300x226.jpg 300w, https://bensonmasons.com/wp-content/uploads/2023/02/PXL_20230222_033323282-2-768x578.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /> </figure> <figure class="wp-block-image size-large"><img src="https://www.bensonmasons.com/wp-content/uploads/2023/02/PXL_20230222_033328485.MP_-1.jpg" alt="" class="wp-image-462" srcset="https://bensonmasons.com/wp-content/uploads/2023/02/PXL_20230222_033328485.MP_-1.jpg 1000w, https://bensonmasons.com/wp-content/uploads/2023/02/PXL_20230222_033328485.MP_-1-300x226.jpg 300w, https://bensonmasons.com/wp-content/uploads/2023/02/PXL_20230222_033328485.MP_-1-768x578.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<img src="/images/2023/02/PXL_20230222_033323282-2.jpg" alt="" class="wp-image-461" srcset="/images/2023/02/PXL_20230222_033323282-2.jpg 1000w, /images/2023/02/PXL_20230222_033323282-2-300x226.jpg 300w, /images/2023/02/PXL_20230222_033323282-2-768x578.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /> </figure> <figure class="wp-block-image size-large"><img src="/images/2023/02/PXL_20230222_033328485.MP_-1.jpg" alt="" class="wp-image-462" srcset="/images/2023/02/PXL_20230222_033328485.MP_-1.jpg 1000w, /images/2023/02/PXL_20230222_033328485.MP_-1-300x226.jpg 300w, /images/2023/02/PXL_20230222_033328485.MP_-1-768x578.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>

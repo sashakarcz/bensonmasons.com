@@ -1,6 +1,5 @@
 ---
 title: The Patron Saints and the Point Within A Circle
-featured_image: '/images/mercer.jpg'
 ---
 
 John J. Mercer Lodge No. 290 is selling prints of the painting &#8220;The Patron Saints and the Point within A Circle&#8221; commissioned by the Lodge in 2014. 

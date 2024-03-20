@@ -1,6 +1,5 @@
 ---
 title: 2024 Dues
-featured_image: '/images/mercer.jpg'
 ---
 <div id="payment-confirmation">
 </div>

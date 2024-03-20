@@ -1,6 +1,5 @@
 ---
 title: "Calendar"
-featured_image: '/images/mercer.jpg'
 ---
 
 

@@ -1,7 +1,5 @@
 ---
 title: Contact
-featured_image: '/images/mercer.jpg'
-description: We'd love to hear from you
 ---
 
 

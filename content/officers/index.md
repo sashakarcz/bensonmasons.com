@@ -1,7 +1,5 @@
 ---
 title: "2024 Officers"
-description: "Elected and Appointed Lodge Officers"
-featured_image: '/images/mercer.jpg'
 ---
 
 {{< figure src="/images/24officers-2048x1769.jpg" title="2024 Elected and Appointed Lodge Officers" >}}
