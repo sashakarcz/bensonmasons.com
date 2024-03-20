@@ -14,7 +14,7 @@ enableRobotsTXT = true
   [languages.en]
     title = "John J Mercer | A.F. & A.M."
     weight = 1
-    contentDir = "content"
+    contentDir = "content"  # Update this line to point to your content directory
     # languageDirection = 'rtl' for Right-To-Left languages
 
 [params]
@@ -37,3 +37,4 @@ url = "https://www.instagram.com/mercerlodge290"
 
 [markup.goldmark.renderer]
 unsafe = true
+
