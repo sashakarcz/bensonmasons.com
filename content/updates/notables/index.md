@@ -1,6 +1,7 @@
 ---
 title: Notables
 type: page
+weight: 1
 ---
 ## 2023 Rock Maul Award (Large Lodge)
 
