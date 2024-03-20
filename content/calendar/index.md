@@ -1,5 +1,8 @@
 ---
 title: "Calendar"
+menu:
+  main:
+    weight: 10
 ---
 
 

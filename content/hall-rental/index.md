@@ -1,5 +1,8 @@
 ---
 title: Hall Rental
+menu:
+  main:
+    weight: 10
 ---
  
 
