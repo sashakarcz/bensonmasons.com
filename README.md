@@ -76,7 +76,7 @@ Navigate to http://127.0.0.1:1313, and the site should be locally rendered.
 
 #### Activate the contact form
 
-We use [formspree.io](//formspree.io/) as proxy to send the emails to the Lodge. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
+We use [formspree.io](//formspree.io/) as proxy to send the emails to the Lodge. Each month, visitors can send us up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
 
 ```
 {{< form-contact action="https://formspree.io/f/xgegvojz"  >}}
