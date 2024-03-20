@@ -5,7 +5,7 @@ type: page
 
 # Mercer’s Bronze Jordan Medal Holder: Bro. Richard Johnson
 
-The Bronze Jordan Medal is presented to the mason who is a Master Mason in good standing and has the longest period of membership with the lodge. Each lodge in Nebraska awards a Bronze Jordan Medal.
+The Bronze Jordan Medal is presented to the Master Mason in good standing and has the longest period of membership with the lodge. Each lodge in Nebraska awards a Bronze Jordan Medal.
 
 
 
