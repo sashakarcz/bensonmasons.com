@@ -7,7 +7,7 @@ menu:
 
 John J. Mercer Lodge No. 290 is selling prints of the painting, "The Patron Saints and the Point within A Circle" commissioned by the Lodge in 2014. 
 
-For more information on this inspirational work of Masonic art, please have a look at the [Interview with WB. David Long](pdf/Patron_Saints_and_the_Point_Within_the_CircleThe.pdf)
+For more information on this inspirational work of Masonic art, please have a look at the [Interview with WB. David Long](/the-patron-saints-and-the-point-within-a-circle/pdf/Patron_Saints_and_the_Point_Within_the_CircleThe.pdf)
 
 {{< figure src="/images/pwiac.jpg" title="Patron Saints and the Point Within the Circle">}}
 
