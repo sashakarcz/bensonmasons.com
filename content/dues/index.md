@@ -2,7 +2,7 @@
 title: 2024 Dues
 menu:
   main:
-    weight: 10
+    weight: 5
 ---
 
 <div id="payment-confirmation">

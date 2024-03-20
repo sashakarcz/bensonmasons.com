@@ -2,7 +2,7 @@
 title: Hall Rental
 menu:
   main:
-    weight: 10
+    weight: 3
 ---
  
 

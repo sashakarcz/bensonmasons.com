@@ -2,7 +2,7 @@
 title: Contact
 menu:
   main:
-    weight: 10
+    weight: 6
 ---
 
 

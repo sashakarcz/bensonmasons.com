@@ -2,7 +2,7 @@
 title: "2024 Officers"
 menu:
   main:
-    weight: 10
+    weight: 4
 ---
 
 {{< figure src="/images/24officers-2048x1769.jpg" title="2024 Elected and Appointed Lodge Officers" >}}
