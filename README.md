@@ -2,9 +2,9 @@
 
 The intent of this code base is to provide a solid Hugo site with basic features and include best practices for performance, accessibility, and rapid development.
 
-![screenshot]()
+![screenshot](https://github.com/sashakarcz/bensonmasons.com/tree/main/static/images/Screenshot.png)
 
-[DEMO](https://dev.bensonmasons.com/)
+[Live Site](https://dev.bensonmasons.com/)
 
 Features
 
@@ -114,11 +114,11 @@ content
 ├── _index.md
 ├── officers
 │   └── index.md
+├── the-patron-saints-and-the-point-within-a-circle
+│   └── index.md
 └── updates
     ├── _index.md
     ├── notables
-    │   └── index.md
-    ├── the-patron-saints-and-the-point-within-a-circle
     │   └── index.md
     └── upcoming-public-events
         └── index.md
@@ -151,11 +151,11 @@ content
 ├── _index.md
 ├── officers
 │   └── index.md
+├── the-patron-saints-and-the-point-within-a-circle
+│   └── index.md
 └── updates
     ├── _index.md
     ├── notables
-    │   └── index.md
-    ├── the-patron-saints-and-the-point-within-a-circle
     │   └── index.md
     └── upcoming-public-events
         └── index.md
