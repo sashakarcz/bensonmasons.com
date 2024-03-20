@@ -33,7 +33,7 @@
 
 /* Adjust hamburger menu size */
 .menu-btn {
-  font-size: 4em; /* Change size as needed */
+  font-size: 2em; /* Change size as needed */
 }
 
 .nav-links {
@@ -41,13 +41,18 @@
   justify-content: space-between;
 }
 
+/* Display nav links vertically on smaller screens */
 @media (max-width: 600px) {
   .nav-links {
-    display: none;
+    display: flex;
     flex-direction: column;
+    align-items: center; /* Center items vertically */
   }
   .menu-btn {
     display: block;
+    font-size: 2em; /* Force size to be 2em */
+    color: white !important; /* Force color to be white */
+    margin-bottom: 1rem; /* Add some spacing between menu button and links */
   }
 }
 
