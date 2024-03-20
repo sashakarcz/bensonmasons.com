@@ -14,7 +14,7 @@ enableRobotsTXT = true
   [languages.en]
     title = "John J Mercer | A.F. & A.M."
     weight = 1
-    contentDir = "content/update"
+    contentDir = "content"
     # languageDirection = 'rtl' for Right-To-Left languages
 
 [params]
