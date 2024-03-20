@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/dues/</loc>
+    <loc>https://dev.bensonmasons.com/dues/</loc>
   </url><url>
-    <loc>http://localhost:1313/officers/</loc>
+    <loc>https://dev.bensonmasons.com/officers/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://dev.bensonmasons.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://dev.bensonmasons.com/</loc>
   </url><url>
-    <loc>http://localhost:1313/calendar/</loc>
+    <loc>https://dev.bensonmasons.com/calendar/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://dev.bensonmasons.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact-us/</loc>
+    <loc>https://dev.bensonmasons.com/contact-us/</loc>
   </url><url>
-    <loc>http://localhost:1313/hall-rental/</loc>
+    <loc>https://dev.bensonmasons.com/hall-rental/</loc>
   </url><url>
-    <loc>http://localhost:1313/more/</loc>
+    <loc>https://dev.bensonmasons.com/more/</loc>
   </url><url>
-    <loc>http://localhost:1313/more/notables/</loc>
+    <loc>https://dev.bensonmasons.com/more/notables/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://dev.bensonmasons.com/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/more/the-patron-saints-and-the-point-within-a-circle/</loc>
+    <loc>https://dev.bensonmasons.com/more/the-patron-saints-and-the-point-within-a-circle/</loc>
   </url><url>
-    <loc>http://localhost:1313/more/upcoming-public-events/</loc>
+    <loc>https://dev.bensonmasons.com/more/upcoming-public-events/</loc>
   </url>
 </urlset>
