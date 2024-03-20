@@ -1,0 +1,8 @@
+/* Custom styles for increasing menu item size on mobile */
+@media (max-width: 768px) {
+  /* Adjust the font size as needed */
+  .nav-item a {
+    font-size: 18px; /* Change the font size to your preference */
+  }
+}
+
