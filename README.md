@@ -71,8 +71,8 @@ Navigate to http://127.0.0.1:1313, and the site should be locally rendered.
 #### Paths of note
 
   - Take a look inside the [`content`](https://github.com/sashakarcz/bensonmasons.com/tree/main/content/) directory of this site for all pages.
-  - [`static/images`](https://github.com/sashakarcz/bensonmasons.com/tree/main/static/images) is where all photos should go. You'll find a file called
-  - [`hugo.toml`](https://github.com/sashakarcz/bensonmasons.com/blob/main/hugo.toml) with all the metadata.
+  - [`static/images`](https://github.com/sashakarcz/bensonmasons.com/tree/main/static/images) is where all photos should go.
+  - [`hugo.toml`](https://github.com/sashakarcz/bensonmasons.com/blob/main/hugo.toml) contains all the metadata, site settings, social media links, and logo.
 
 #### Activate the contact form
 
