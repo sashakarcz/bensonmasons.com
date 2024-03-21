@@ -58,5 +58,12 @@
     color: white !important; /* Force color to be white */
     margin-bottom: 1rem; /* Add some spacing between menu button and links */
   }
+
+  /* Ensure menu links remain white with spacing */
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0; /* Adjust top and bottom margin for spacing */
+  }
 }
 
