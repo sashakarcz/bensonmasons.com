@@ -9,7 +9,7 @@ John J. Mercer Lodge No. 290 is selling prints of the painting, "The Patron Sain
 
 For more information on this inspirational work of Masonic art, please have a look at the [Interview with WB. David Long](/the-patron-saints-and-the-point-within-a-circle/pdf/Patron_Saints_and_the_Point_Within_the_CircleThe.pdf)
 
-{{< figure src="/images/pwiac.jpg" title="Patron Saints and the Point Within the Circle">}}
+{{< figure src="/images/pwiac.webp" title="Patron Saints and the Point Within the Circle">}}
 
 
 ## Shipping Information

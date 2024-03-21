@@ -52,6 +52,6 @@ The **rental fee** ($300.00 minimum plus any additional time required) is due tw
 
 A signed Rental Agreement is also required which outlines the cost, time of occupancy, cleaning duties and more.
 
-{{< figure src="/images/2023/02/PXL_20230222_033323282-2.jpg">}}
+{{< figure src="/images/2023/02/PXL_20230222_033323282-2.webp">}}
 
-{{< figure src="/images/2023/02/PXL_20230222_033328485.MP_-1.jpg">}}
+{{< figure src="/images/2023/02/PXL_20230222_033328485.MP_-1.webp">}}

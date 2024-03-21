@@ -20,7 +20,7 @@ John J. Mercer Lodge No. 290, as owner of the Benson Masonic Temple, in the Crea
 
 The Mercer Men have partnered with Benson First Friday (BFF) on numerous occasions. More recently developing a partnership to open their dining hall to BFF for the Artist Markets to continue in the winter time. During these First Fridays, the Mercer Men hand-make breakfast burritos and sell them to customers of BFF, patrons, and passersby as a fundraiser for the Lodge to help maintain the building, maintenance and utility costs.
 
-{{< figure src="/images/BFF.jpg" >}}
+{{< figure src="/images/BFF.webp" >}}
 
 
 **Be on the lookout for a new annual public fundraising event coming to the Benson Masonic Temple, hosted by the Mercer Men in 2024!**
@@ -31,7 +31,7 @@ John J. Mercer Lodge No. 290 was started in 1914 with the name Benson Lodge UD (
 
 We are named after Captain John Jackson Mercer (1833-1915) who was the 24th Grand Master of Masons in Nebraska.
 
-{{< figure src="/images/jjmercer.jpg" >}}
+{{< figure src="/images/jjmercer.webp" >}}
 
 Our Lodge first met in the Odd Fellows Hall in Benson until erecting our own building in 1926 and have lived here on 59th and Maple, in the Creative District of Benson, ever since.
 
