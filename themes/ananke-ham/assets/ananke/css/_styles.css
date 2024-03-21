@@ -67,26 +67,3 @@
   }
 }
 
-/* Custom CSS for responsive logo */
-.logo-container {
-  max-width: 100%;
-}
-
-.logo-container img {
-  width: 100%;
-  max-width: 200px; /* Adjust the max-width as needed */
-  height: auto;
-}
-
-/* Adjust the max-width for different screen sizes */
-@media screen and (min-width: 768px) {
-  .logo-container img {
-    max-width: 250px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .logo-container img {
-    max-width: 300px;
-  }
-}
