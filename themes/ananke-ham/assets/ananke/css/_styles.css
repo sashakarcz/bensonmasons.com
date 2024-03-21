@@ -46,7 +46,7 @@
   .nav-links {
     display: -webkit-box;
     display: -webkit-flex;
-    display: flex;
+    display: none;
     -webkit-flex-direction: column;
     flex-direction: column;
     -webkit-align-items: center;
