@@ -1,5 +1,5 @@
 title = "John J Mercer | A.F. & A.M."
-baseURL = "https://dev.bensonmasons.com"
+baseURL = "{{ getenv "HUGO_BASEURL" }}"
 languageCode = "en-us"
 theme = "ananke-ham"
 resourceDir = "../resources"
