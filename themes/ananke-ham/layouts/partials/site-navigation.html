@@ -2,7 +2,7 @@
   <div class="flex-l justify-between items-center center">
     <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white no-underline white-90 dib">
       {{ with .Site.Params.site_logo }}
-        <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
+        <img src="{{ relURL . }}" class="logo-img" alt="{{ $.Site.Title }}" />
       {{ else }}
         {{ .Site.Title }}
       {{ end }}
@@ -14,35 +14,35 @@
           <div class="menu-btn">
             <div class="dib">☰ Menu</div>
           </div>
-          <div class="nav-links">
+          <div class="nav-links hidden">
             {{ range .Site.Menus.main }}
-            <a class="link hover-white white-90 no-underline f5 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} " href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+            <a class="link hover-white white-90 no-underline f5 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
               {{ .Name }}
             </a>
             {{ end }}
           </div>
         </nav>
 
+        <!-- JavaScript for Mobile Navigation Toggle -->
         <script>
-          var navLinks = document.querySelector('.nav-links');
-          document.querySelector('.menu-btn').addEventListener('click', function() {
-            if (navLinks.style.display === 'none') {
-              navLinks.style.display = 'flex';
-            } else {
-              navLinks.style.display = 'none';
-            }
+          const menuBtn = document.querySelector('.menu-btn');
+          const navLinks = document.querySelector('.nav-links');
+
+          menuBtn.addEventListener('click', function() {
+            navLinks.classList.toggle('hidden');
           });
-       
-          // Adjust menu when window is resized
+
+          // Adjust menu display based on window resize
           window.addEventListener('resize', function() {
             if (window.innerWidth > 600) {
+              navLinks.classList.remove('hidden');
               navLinks.style.display = 'flex';
             } else {
-              navLinks.style.display = 'none';
+              navLinks.classList.add('hidden');
+              navLinks.style.display = '';
             }
           });
         </script>
-
       {{ end }}
       {{ partialCached "social-follow.html" . }}
     </div>

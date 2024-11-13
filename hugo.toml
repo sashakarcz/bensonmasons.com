@@ -21,7 +21,7 @@ enableRobotsTXT = true
   text_color = ""
   author = ""
   favicon = ""
-  site_logo = "/images/cropped-LogoWithTitleAndNumber.webp"
+  site_logo = "/images/cropped_logo_mercer.webp"
   description = ""
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
