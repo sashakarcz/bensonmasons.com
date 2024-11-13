@@ -1,9 +1,4 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
-.logo-img {
-  max-width: 290px; /* Set the max width */
-  height: auto;     /* Maintain aspect ratio */
-}
-
 
 #TableOfContents ul li {
   margin-bottom: 1em;
