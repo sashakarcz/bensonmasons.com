@@ -1,6 +1,7 @@
 ---
 title: Band Camp
 type: page
+read_more_copy: "More about the 2023 Masonic Band Camp"
 ---
 
 # 2023 Nebraska Masonic All-Star Marching Band Camp
