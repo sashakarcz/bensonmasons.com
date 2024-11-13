@@ -56,7 +56,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "https://sashakarcz.github.io/bensonmasons.com/\"
+            --baseURL "https://sashakarcz.github.io/bensonmasons.com"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
