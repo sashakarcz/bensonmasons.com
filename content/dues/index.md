@@ -52,7 +52,7 @@ Omaha, NE 68104
 
 Mercer Lodge uses PayPal to receive online payments. 
 
-  * **PayPal _does_ charge the Lodge for each transaction**. We ask (although optional) that a Brother help contribute to offsetting these costs ($3) if paying online. Due to PayPal terms, we cannot &#8220;impose&#8221; any type of fee but we can give you the option to choose for yourself.
+  * **PayPal _does_ charge the Lodge for each transaction**. We ask (although optional) that a Brother help contribute to offsetting these costs ($5) if paying online. Due to PayPal terms, we cannot &#8220;impose&#8221; any type of fee but we can give you the option to choose for yourself.
 
 Please fill out the form below to and click the &#8220;Pay Dues&#8221; button to initiate the online payment process. Once that &#8220;Pay Dues&#8221; button is clicked, you will be presented with buttons for payment options.
 
