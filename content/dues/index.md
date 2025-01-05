@@ -271,7 +271,7 @@ For any issues with submitting dues online, please send an email to info@bensonm
             </label>
             <input type="number" id="millenniumFundAmount" name="millenniumFundAmount" placeholder="0.00" class="dues-form-field">
             <br>
-            Checkout Total:&nbsp;&nbsp;&nbsp;$<span class="dues-generated-total">95.50</span>
+            Checkout Total:&nbsp;&nbsp;&nbsp;$<span class="dues-generated-total">120.00</span>
             <br>
             <button type="button" id="submit-dues-form">Pay Dues</button>
             <div id="paypal-button-container"></div>
