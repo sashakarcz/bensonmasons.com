@@ -1,5 +1,5 @@
 ---
-title: 2024 Dues
+title: 2025 Dues
 menu:
   main:
     weight: 2
@@ -9,25 +9,25 @@ Dues season is here and [online payment](#dues-form) is available!
 
 **OR You can pay through the [Grand View Member Portal](https://ne.grandview.systems/)**
 
-**Dues for 2024 are $95.50** and are explained below:
+**Dues for 2025 are $120** and are explained below:
 
-| Description                                                      | Amount     |
-|------------------------------------------------------------------|------------|
-| **Grand Lodge Per Capita Tax (Breakout Below)**                  | $37.00     |
-|   - Grand Lodge of NE General Fund                               | $31.00     |
-|   - Nebraska Masonic Home                                        | $2.50      |
-|   - Masonic-Eastern Star Home for Children                       | $1.50      |
-|   - George Washington Masonic Memorial                           | $1.50      |
-|   - Masonic Education Newsletter                                 | $0.50      |
-| **Grand Lodge Assessments (Breakout Below)**                     | $3.00      |
-|   - Child Identification Program (CHIP)                          | $1.50      |
-|   - Nebraska Job’s Daughters                                     | $0.50      |
-|   - International Order of Rainbow Girls                         | $0.50      |
-|   - Nebraska DeMolay                                             | $0.50      |
-| **Mercer Lodge Dues**                                            | $55.50     |
-|   (Optional) Donation to offset online payment costs             | $3.00      |
-|                                                                  |            |
-| **DUES TOTAL (without donation to offset online payment costs)** | **$95.50** |
+| Description                                                      | Amount      |
+|------------------------------------------------------------------|-------------|
+| **Grand Lodge Per Capita Tax (Breakout Below)**                  | $37.00      |
+|   - Grand Lodge of NE General Fund                               | $31.00      |
+|   - Nebraska Masonic Home                                        | $2.50       |
+|   - Masonic-Eastern Star Home for Children                       | $1.50       |
+|   - George Washington Masonic Memorial                           | $1.50       |
+|   - Masonic Education Newsletter                                 | $0.50       |
+| **Grand Lodge Assessments (Breakout Below)**                     | $3.00       |
+|   - Child Identification Program (CHIP)                          | $1.50       |
+|   - Nebraska Job’s Daughters                                     | $0.50       |
+|   - International Order of Rainbow Girls                         | $0.50       |
+|   - Nebraska DeMolay                                             | $0.50       |
+| **Mercer Lodge Dues**                                            | $80.00      |
+|   (Optional) Donation to offset online payment costs             | $5.00       |
+|                                                                  |             |
+| **DUES TOTAL (without donation to offset online payment costs)** | **$120.00** |
 
 
 ## Millennium Fund
@@ -63,8 +63,8 @@ For any issues with submitting dues online, please send an email to info@bensonm
 <script src="https://www.paypal.com/sdk/js?client-id=ASJRpc7ZXZWsMgK93sIyuYtBUfeqqL3zSRdMaqcsQp84sVAAOtIXbE9Xe2ymZpiacMw7Kz9G7S8VksKJ"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
 </script>
 <script>
-    var LODGE_DUES_AMOUNT = 95.50;
-    var DIGITAL_PAYMENT_CONTRIBUTION_AMOUNT = 3.00;
+    var LODGE_DUES_AMOUNT = 120.00;
+    var DIGITAL_PAYMENT_CONTRIBUTION_AMOUNT = 5.00;
 
     function setPayDuesButtonVisibility(isVisible) {
         var payDuesButton = document.querySelector('#submit-dues-form');
@@ -148,16 +148,16 @@ For any issues with submitting dues online, please send an email to info@bensonm
 
         items.push({
             unit_amount: { currency_code: 'USD', value: LODGE_DUES_AMOUNT },
-            name: "John J. Mercer Lodge Dues - 2024 (" + fullName + ")",
-            description: "John J. Mercer Lodge Dues - 2024 (" + fullName + ")",
+            name: "John J. Mercer Lodge Dues - 2025 (" + fullName + ")",
+            description: "John J. Mercer Lodge Dues - 2025 (" + fullName + ")",
             quantity: 1
         });
 
         if (millenniumFundAmount > 0.00) {
             items.push({
                 unit_amount: { currency_code: 'USD', value: millenniumFundAmount },
-                name: "John J. Mercer Millennium Fund Donation - 2024 (" + fullName + ")",
-                description: "John J. Mercer Millennium Fund Donation - 2024 (" + fullName + ")",
+                name: "John J. Mercer Millennium Fund Donation - 2025 (" + fullName + ")",
+                description: "John J. Mercer Millennium Fund Donation - 2025 (" + fullName + ")",
                 quantity: 1
             });
         }
@@ -165,8 +165,8 @@ For any issues with submitting dues online, please send an email to info@bensonm
         if (digitalPaymentFundAmount > 0.00) {
             items.push({
                 unit_amount: { currency_code: 'USD', value: digitalPaymentFundAmount },
-                name: "John J. Mercer DigitalPay Fund Donation - 2024 (" + fullName + ")",
-                description: "John J. Mercer DigitalPay Fund Donation - 2024 (" + fullName + ")",
+                name: "John J. Mercer DigitalPay Fund Donation - 2025 (" + fullName + ")",
+                description: "John J. Mercer DigitalPay Fund Donation - 2025 (" + fullName + ")",
                 quantity: 1
             });
         }
@@ -207,7 +207,7 @@ For any issues with submitting dues online, please send an email to info@bensonm
                                     discount: { currency_code: "USD", value: "0" }
                                 }
                             },
-                            description: "John J. Mercer Lodge Dues Payment (2024)",
+                            description: "John J. Mercer Lodge Dues Payment (2025)",
                             items: getItems()
                         }]
                     });
