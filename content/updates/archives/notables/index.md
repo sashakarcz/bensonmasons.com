@@ -3,6 +3,7 @@ title: Notables
 type: page
 weight: 1
 read_more_copy: "Learn more about the goings on at Mercer"
+date: 2024-01-01
 ---
 ## 2023 Rock Maul Award (Large Lodge)
 

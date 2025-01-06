@@ -1,6 +1,7 @@
 ---
 title: Flag Replacement
 type: page
+date: 2024-01-01
 ---
 
 # Mercer Men replace the flag at the entrance to the Creative District of Benson
