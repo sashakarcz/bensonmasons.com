@@ -2,7 +2,7 @@
 
 The intent of this code base is to provide a solid Hugo site with basic features and include best practices for performance, accessibility, and rapid development.
 
-![Dev Benson Masons Screenshot](https://raw.githubusercontent.com/sashakarcz/bensonmasons.com/main/static/images/dev.bensonmasons.com_.png)
+![Dev Benson Masons Screenshot](https://github.com/sashakarcz/bensonmasons.com/blob/a6c70f3b00d6d49bdc493fb15c8bc53033ddddf2/static/images/dev.bensonmasons.com_.png)
 
 [Live Site](https://dev.bensonmasons.com/)
 
