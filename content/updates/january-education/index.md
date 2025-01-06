@@ -3,7 +3,7 @@ title: January Education
 type: page
 ---
 
-# January Education
+# Words have power
 
 Join us and enjoy this delightful conversation from the [Whence Came You podcast](https://wcypodcast.com).
 
