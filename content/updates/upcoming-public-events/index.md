@@ -2,6 +2,7 @@
 title: "Upcoming Events"
 weight: 2
 read_more_copy: "See more upcoming events!"
+date: 2024-01-01
 --- 
 
 The Brethren of John J. Mercer Lodge No. 290 often engage with their local community, whether through events open to the public or attending public events. Check out our upcoming public engagement events below &#8211; we hope to see you there! **Note: ALL events listed below are OPEN to the PUBLIC.**

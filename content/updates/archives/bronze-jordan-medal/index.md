@@ -1,6 +1,7 @@
 ---
 title: Bronze Jordan Medal
 type: page
+date: 2024-01-01
 ---
 
 # Mercer’s Bronze Jordan Medal Holder: Bro. Richard Johnson
