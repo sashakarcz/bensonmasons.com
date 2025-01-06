@@ -6,7 +6,8 @@ resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 9 googleAnalytics = ""
+Paginate = 9
+googleAnalytics = ""
 enableRobotsTXT = true
 
 [languages]
