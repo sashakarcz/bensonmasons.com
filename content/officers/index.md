@@ -1,5 +1,5 @@
 ---
-title: "2024 Officers"
+title: "2025 Officers"
 menu:
   main:
     weight: 1
@@ -65,9 +65,9 @@ WB Eric is a Past Master of Mercer (2020 & 2021) earning Master of the Year in 2
 
 #### Elected Representatives
 
-| WB Kyle Beckner | Bro. Sasha Karcz | WB Ben Zaayer | Bro. Mark Beneda | Bro. Celio Santos | Bro. Nick Walsh |
-| --------------- | ---------------- | ------------- | ---------------- | ----------------- | --------------- |
-| 2024-2026       | 2024-2026        | 2022-2025     | 2022-2025        | 2023-2025         | 2020-2023       |
+| WB Kyle Beckner | Bro. Sasha Karcz | Bro. Allen Staub | Bro. Mark Beneda | Bro. Celio Santos | Bro. Julius Boatwright | Bro. Matt Warta |
+| --------------- | ---------------- | ---------------- | ---------------- | ----------------- | ---------------------- | --------------- |
+| 2024-2026       | 2024-2026        | 2025-2026        | 2022-2025        | 2023-2026         | 2025-2026              | 2025-2026       |
 
 #### Ex-officio Members
 
