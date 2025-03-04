@@ -1,6 +1,6 @@
 ---
 title: January Education
-weight: 1
+weight: 2
 date: 2025-01-05
 type: page
 ---
