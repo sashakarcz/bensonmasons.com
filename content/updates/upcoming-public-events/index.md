@@ -11,7 +11,7 @@ All events are at the Benson Masonic Temple (5903 Maple St) unless otherwise not
 
 **2025**
 
-**March 7, 2025
+**March 7, 2025**
 **Benson First Friday: Artist Markets & Breakfast Burritos**  
 (Lodge Building Tours at 7:00 and 8:00 PM)  
 6:00 PM &#8211; 9:00 PM  
