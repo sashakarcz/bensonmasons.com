@@ -1,4 +1,4 @@
-# Benson Masons, a [Hugo](https://gohugo.io/) powered site for the Mercer Lodge #290.
+# Benson Masons, a [Hugo](https://gohugo.io/) powered site for the Mercer Lodge No. 290.
 
 The intent of this code base is to provide a solid Hugo site with basic features and include best practices for performance, accessibility, and rapid development.
 
