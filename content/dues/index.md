@@ -1,5 +1,5 @@
 ---
-title: 2025 Dues
+title: 2026 Dues
 menu:
   main:
     weight: 2
@@ -9,7 +9,7 @@ Dues season is here and [online payment](#dues-form) is available!
 
 **OR You can pay through the [Grand View Member Portal](https://ne.grandview.systems/)**
 
-**Dues for 2025 are $120** and are explained below:
+**Dues for 2026 are $120** and are explained below:
 
 | Description                                                      | Amount      |
 |------------------------------------------------------------------|-------------|
