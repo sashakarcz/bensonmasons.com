@@ -148,16 +148,16 @@ For any issues with submitting dues online, please send an email to info@bensonm
 
         items.push({
             unit_amount: { currency_code: 'USD', value: LODGE_DUES_AMOUNT },
-            name: "John J. Mercer Lodge Dues - 2025 (" + fullName + ")",
-            description: "John J. Mercer Lodge Dues - 2025 (" + fullName + ")",
+            name: "John J. Mercer Lodge Dues - 2026 (" + fullName + ")",
+            description: "John J. Mercer Lodge Dues - 2026 (" + fullName + ")",
             quantity: 1
         });
 
         if (millenniumFundAmount > 0.00) {
             items.push({
                 unit_amount: { currency_code: 'USD', value: millenniumFundAmount },
-                name: "John J. Mercer Millennium Fund Donation - 2025 (" + fullName + ")",
-                description: "John J. Mercer Millennium Fund Donation - 2025 (" + fullName + ")",
+                name: "John J. Mercer Millennium Fund Donation - 2026 (" + fullName + ")",
+                description: "John J. Mercer Millennium Fund Donation - 2026 (" + fullName + ")",
                 quantity: 1
             });
         }
@@ -165,8 +165,8 @@ For any issues with submitting dues online, please send an email to info@bensonm
         if (digitalPaymentFundAmount > 0.00) {
             items.push({
                 unit_amount: { currency_code: 'USD', value: digitalPaymentFundAmount },
-                name: "John J. Mercer DigitalPay Fund Donation - 2025 (" + fullName + ")",
-                description: "John J. Mercer DigitalPay Fund Donation - 2025 (" + fullName + ")",
+                name: "John J. Mercer DigitalPay Fund Donation - 2026 (" + fullName + ")",
+                description: "John J. Mercer DigitalPay Fund Donation - 2026 (" + fullName + ")",
                 quantity: 1
             });
         }
@@ -207,7 +207,7 @@ For any issues with submitting dues online, please send an email to info@bensonm
                                     discount: { currency_code: "USD", value: "0" }
                                 }
                             },
-                            description: "John J. Mercer Lodge Dues Payment (2025)",
+                            description: "John J. Mercer Lodge Dues Payment (2026)",
                             items: getItems()
                         }]
                     });
